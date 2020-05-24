@@ -1,4 +1,4 @@
-package com.example.mvvm_master.welcomepage.fragment;
+package com.example.mvvm_master.view.welcomepage.fragment;
 
 import android.os.Bundle;
 
@@ -10,16 +10,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.mvvm_master.R;
-import com.example.mvvm_master.databinding.FragmentPage1Binding;
+import com.example.mvvm_master.databinding.FragmentPage2Binding;
 
-public class PageFragment1 extends Fragment {
+public class PageFragment2 extends Fragment {
 
-    private FragmentPage1Binding binding;
+    private FragmentPage2Binding binding;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-//        通过DataBinding工具类实例化布局view
-        binding= DataBindingUtil.inflate(inflater,R.layout.fragment_page1, container, false);
+        // Inflate the layout for this fragment
+        binding= DataBindingUtil.inflate(inflater,R.layout.fragment_page2, container, false);
         return binding.getRoot();
     }
 }
