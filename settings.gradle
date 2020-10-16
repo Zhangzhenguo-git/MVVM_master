@@ -1,2 +1,3 @@
+include ':mvvm'
 rootProject.name='MVVM_master'
 include ':app'
